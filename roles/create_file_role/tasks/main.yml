@@ -1,0 +1,5 @@
+---
+- name: Create a file using custom module
+  my_namespace.yandex_cloud_elk.create_file:
+    path: "{{ create_file_path | default('/tmp/default_file.txt') }}"
+    content: "{{ create_file_content | default('Default content') }}"

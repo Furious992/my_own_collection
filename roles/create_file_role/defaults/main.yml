@@ -1,0 +1,4 @@
+---
+# Default variables for create_file_role
+create_file_path: /tmp/ansible_default_file.txt
+create_file_content: "This is the default content from the role."
